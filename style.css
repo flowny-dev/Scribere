@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0px;
+
+    font-family: "Swanky and Moo Moo", cursive;
+    font-weight: 700;
+}
+
+body {
+    background-color: #FFF2E9;
+    color: #1C2630;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+* a {
+    color: #1C2630;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 35px;
+}
+
+.container form input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+
+form input {
+    border: none;
+    border-bottom: solid #3C3C3E 3.4px;
+    background-color: transparent;
+    padding: 10px 15px;
+    outline: none;
+    transition: opacity 0.5s ease;
+}
+
+form input::placeholder {
+    font-size: 24px;
+    color: #3C3C3E;
+}
+
+form input:focus {
+    font-size: 24px;
+}
